@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Want Coffee</title>
+</head>
+<body>
+    <h1>You Want Coffee</h1>
+    <form action="/submit-coffee" method="post">
+        <label for="coffee-type">Choose your coffee type:</label>
+        <select id="coffee-type" name="coffee-type">
+            <option value="espresso">Espresso</option>
+            <option value="latte">Latte</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="americano">Americano</option>
+        </select>
+        <br><br>
+        <label for="size">Select size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Order Coffee">
+    </form>
+</body>
+</html>
